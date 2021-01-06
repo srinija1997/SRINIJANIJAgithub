@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebApplication2",
+    "\\WebApplication2\\WebApplication2",
+    "\\WebApplication2\\WebApplication2\\Controllers",
+    "\\WebApplication2\\WebApplication2\\Models",
+    "\\WebApplication2\\WebApplication2\\Repository"
   ],
+  "SelectedNode": "\\WebApplication2",
   "PreviewInSolutionExplorer": false
 }

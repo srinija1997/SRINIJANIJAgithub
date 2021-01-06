@@ -28,6 +28,7 @@ namespace WebApplication2
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {

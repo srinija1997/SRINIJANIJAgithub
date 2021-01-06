@@ -8,9 +8,20 @@ namespace WebApplication2.Controllers
 {
     public class HomeController:Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "Srinija";
+            var obj = new { id= 1,Name= "Sri" };
+            return View(obj);
+        }
+
+        public ViewResult Aboutus()
+        {
+            return View();
+        }
+
+        public ViewResult Contactus()
+        {
+            return View();
         }
     }
 }
